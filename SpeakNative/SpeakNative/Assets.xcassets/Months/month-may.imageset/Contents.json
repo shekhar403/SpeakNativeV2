@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "month-may.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

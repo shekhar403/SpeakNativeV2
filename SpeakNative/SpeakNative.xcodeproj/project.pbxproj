@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0001EDA12A9DB6CA0039D261 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0001EDA02A9DB6CA0039D261 /* CustomButton.swift */; };
+		00B729F42AB0A41800B3DE02 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B729F32AB0A41800B3DE02 /* LoginHandler.swift */; };
+		00D4ACCD2AA08877000990EB /* CustomLanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D4ACCC2AA08877000990EB /* CustomLanguagePickerView.swift */; };
+		AD009C282A89C5E20000911B /* LocalDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009C272A89C5E20000911B /* LocalDataStore.swift */; };
+		AD212F892AA6C2DD00C14970 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD212F882AA6C2DD00C14970 /* WelcomeView.swift */; };
+		AD212F8D2AA6F03D00C14970 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD212F8C2AA6F03D00C14970 /* LoginForm.swift */; };
+		AD220C462A860705007E9BD8 /* SpeakNativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C452A860705007E9BD8 /* SpeakNativeApp.swift */; };
+		AD220C482A860705007E9BD8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C472A860705007E9BD8 /* Persistence.swift */; };
+		AD220C4B2A860705007E9BD8 /* SpeakNative.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD220C492A860705007E9BD8 /* SpeakNative.xcdatamodeld */; };
+		AD220C4D2A860705007E9BD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C4C2A860705007E9BD8 /* ContentView.swift */; };
+		AD220C4F2A86070B007E9BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD220C4E2A86070B007E9BD8 /* Assets.xcassets */; };
+		AD220C532A86070B007E9BD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD220C522A86070B007E9BD8 /* Preview Assets.xcassets */; };
+		AD220C5D2A86070C007E9BD8 /* SpeakNativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C5C2A86070C007E9BD8 /* SpeakNativeTests.swift */; };
+		AD220C672A86070C007E9BD8 /* SpeakNativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C662A86070C007E9BD8 /* SpeakNativeUITests.swift */; };
+		AD220C692A86070C007E9BD8 /* SpeakNativeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C682A86070C007E9BD8 /* SpeakNativeUITestsLaunchTests.swift */; };
+		AD220C762A860FA2007E9BD8 /* LanguageCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C752A860FA2007E9BD8 /* LanguageCardsView.swift */; };
+		AD220C782A865D49007E9BD8 /* LanguageQuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD220C772A865D49007E9BD8 /* LanguageQuestionnaireView.swift */; };
+		AD2CAF562A9A5060002EE6A6 /* ConversationTranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2CAF552A9A5060002EE6A6 /* ConversationTranslatorView.swift */; };
+		AD2CAF582A9A5451002EE6A6 /* SimpleTranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2CAF572A9A5451002EE6A6 /* SimpleTranslatorView.swift */; };
+		AD440DFE2A88C57500F3762C /* AIImagegenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD440DFD2A88C57500F3762C /* AIImagegenerator.swift */; };
+		AD5A274B2A91C2AE0000A6C7 /* TextRecognizerCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A274A2A91C2AE0000A6C7 /* TextRecognizerCameraView.swift */; };
+		AD5C6DEB2A99CD55009118A1 /* ChartListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6DEA2A99CD55009118A1 /* ChartListItemView.swift */; };
+		AD68F7052A8FC14D00683FA5 /* LibreTranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68F7042A8FC14D00683FA5 /* LibreTranslationService.swift */; };
+		AD68F70A2A9008DC00683FA5 /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68F7092A9008DC00683FA5 /* TranslatorView.swift */; };
+		AD68F70C2A9092A300683FA5 /* TextOCRVisionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68F70B2A9092A300683FA5 /* TextOCRVisionHandler.swift */; };
+		AD72302A2AAB59CD0056E075 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD722FF72AAB35320056E075 /* WidgetKit.framework */; };
+		AD72302B2AAB59CD0056E075 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD722FF92AAB35320056E075 /* SwiftUI.framework */; };
+		AD72302E2AAB59CE0056E075 /* TranslationWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72302D2AAB59CE0056E075 /* TranslationWidgetBundle.swift */; };
+		AD7230302AAB59CE0056E075 /* TranslationWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72302F2AAB59CE0056E075 /* TranslationWidget.swift */; };
+		AD7230322AAB59CE0056E075 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7230312AAB59CE0056E075 /* AppIntent.swift */; };
+		AD7230342AAB59D00056E075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7230332AAB59D00056E075 /* Assets.xcassets */; };
+		AD7230392AAB59D00056E075 /* TranslationWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD7230292AAB59CD0056E075 /* TranslationWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD7230402AABB2180056E075 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7230312AAB59CE0056E075 /* AppIntent.swift */; };
+		AD7230412AABB2360056E075 /* GoogleCloudTranslatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77350F2A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift */; };
+		AD76F55D2A88AEFC00D086CB /* MainFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76F55C2A88AEFC00D086CB /* MainFeaturesView.swift */; };
+		AD7735102A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77350F2A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift */; };
+		AD7ABA7D2A9DE50E00086BB2 /* FlashCardsQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7ABA7C2A9DE50E00086BB2 /* FlashCardsQuizView.swift */; };
+		AD7ABA822A9DE60F00086BB2 /* claps-44774.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD7ABA812A9DE60F00086BB2 /* claps-44774.mp3 */; };
+		AD8EE5F12AAD67AA00FC0882 /* LocalDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009C272A89C5E20000911B /* LocalDataStore.swift */; };
+		ADC14A792AA2EEC100818753 /* SpeechSynthesizerCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC14A782AA2EEC100818753 /* SpeechSynthesizerCommon.swift */; };
+		ADC3AC2F2A8D4B930073666D /* YandexTranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC3AC2E2A8D4B930073666D /* YandexTranslationService.swift */; };
+		ADE2BEA32A8943EF00905B0D /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE2BEA22A8943EF00905B0D /* FlashCardsView.swift */; };
+		ADE8A2192A98C34A007160E4 /* SpeechToTextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A2182A98C34A007160E4 /* SpeechToTextService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD220C592A86070C007E9BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD220C3A2A860705007E9BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD220C412A860705007E9BD8;
+			remoteInfo = SpeakNative;
+		};
+		AD220C632A86070C007E9BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD220C3A2A860705007E9BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD220C412A860705007E9BD8;
+			remoteInfo = SpeakNative;
+		};
+		AD7230372AAB59D00056E075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD220C3A2A860705007E9BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7230282AAB59CD0056E075;
+			remoteInfo = TranslationWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD7230092AAB35350056E075 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD7230392AAB59D00056E075 /* TranslationWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0001EDA02A9DB6CA0039D261 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		00B729F32AB0A41800B3DE02 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		00D4ACCC2AA08877000990EB /* CustomLanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLanguagePickerView.swift; sourceTree = "<group>"; };
+		AD009C272A89C5E20000911B /* LocalDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataStore.swift; sourceTree = "<group>"; };
+		AD212F882AA6C2DD00C14970 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AD212F8C2AA6F03D00C14970 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		AD220C422A860705007E9BD8 /* SpeakNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD220C452A860705007E9BD8 /* SpeakNativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakNativeApp.swift; sourceTree = "<group>"; };
+		AD220C472A860705007E9BD8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AD220C4A2A860705007E9BD8 /* SpeakNative.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeakNative.xcdatamodel; sourceTree = "<group>"; };
+		AD220C4C2A860705007E9BD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD220C4E2A86070B007E9BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD220C502A86070B007E9BD8 /* SpeakNative.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeakNative.entitlements; sourceTree = "<group>"; };
+		AD220C522A86070B007E9BD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD220C582A86070C007E9BD8 /* SpeakNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD220C5C2A86070C007E9BD8 /* SpeakNativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakNativeTests.swift; sourceTree = "<group>"; };
+		AD220C622A86070C007E9BD8 /* SpeakNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD220C662A86070C007E9BD8 /* SpeakNativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakNativeUITests.swift; sourceTree = "<group>"; };
+		AD220C682A86070C007E9BD8 /* SpeakNativeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakNativeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD220C752A860FA2007E9BD8 /* LanguageCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCardsView.swift; sourceTree = "<group>"; };
+		AD220C772A865D49007E9BD8 /* LanguageQuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageQuestionnaireView.swift; sourceTree = "<group>"; };
+		AD2CAF552A9A5060002EE6A6 /* ConversationTranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTranslatorView.swift; sourceTree = "<group>"; };
+		AD2CAF572A9A5451002EE6A6 /* SimpleTranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTranslatorView.swift; sourceTree = "<group>"; };
+		AD440DFD2A88C57500F3762C /* AIImagegenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImagegenerator.swift; sourceTree = "<group>"; };
+		AD5A274A2A91C2AE0000A6C7 /* TextRecognizerCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerCameraView.swift; sourceTree = "<group>"; };
+		AD5A274C2A91C47C0000A6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD5C6DEA2A99CD55009118A1 /* ChartListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartListItemView.swift; sourceTree = "<group>"; };
+		AD68F7042A8FC14D00683FA5 /* LibreTranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreTranslationService.swift; sourceTree = "<group>"; };
+		AD68F7092A9008DC00683FA5 /* TranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+		AD68F70B2A9092A300683FA5 /* TextOCRVisionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOCRVisionHandler.swift; sourceTree = "<group>"; };
+		AD722FF72AAB35320056E075 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		AD722FF92AAB35320056E075 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		AD7230292AAB59CD0056E075 /* TranslationWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TranslationWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD72302D2AAB59CE0056E075 /* TranslationWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationWidgetBundle.swift; sourceTree = "<group>"; };
+		AD72302F2AAB59CE0056E075 /* TranslationWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationWidget.swift; sourceTree = "<group>"; };
+		AD7230312AAB59CE0056E075 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AD7230332AAB59D00056E075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7230352AAB59D00056E075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7230362AAB59D00056E075 /* TranslationWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TranslationWidget.entitlements; sourceTree = "<group>"; };
+		AD76F55C2A88AEFC00D086CB /* MainFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeaturesView.swift; sourceTree = "<group>"; };
+		AD77350F2A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCloudTranslatorService.swift; sourceTree = "<group>"; };
+		AD7ABA7C2A9DE50E00086BB2 /* FlashCardsQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsQuizView.swift; sourceTree = "<group>"; };
+		AD7ABA812A9DE60F00086BB2 /* claps-44774.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "claps-44774.mp3"; sourceTree = "<group>"; };
+		ADC14A782AA2EEC100818753 /* SpeechSynthesizerCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerCommon.swift; sourceTree = "<group>"; };
+		ADC3AC2E2A8D4B930073666D /* YandexTranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexTranslationService.swift; sourceTree = "<group>"; };
+		ADE2BEA22A8943EF00905B0D /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		ADE8A2182A98C34A007160E4 /* SpeechToTextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD220C3F2A860705007E9BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C552A86070C007E9BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C5F2A86070C007E9BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7230262AAB59CD0056E075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD72302B2AAB59CD0056E075 /* SwiftUI.framework in Frameworks */,
+				AD72302A2AAB59CD0056E075 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD009C262A89C5C50000911B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD009C272A89C5E20000911B /* LocalDataStore.swift */,
+				00B729F32AB0A41800B3DE02 /* LoginHandler.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD220C392A860705007E9BD8 = {
+			isa = PBXGroup;
+			children = (
+				AD220C442A860705007E9BD8 /* SpeakNative */,
+				AD220C5B2A86070C007E9BD8 /* SpeakNativeTests */,
+				AD220C652A86070C007E9BD8 /* SpeakNativeUITests */,
+				AD72302C2AAB59CE0056E075 /* TranslationWidget */,
+				AD722FF62AAB35320056E075 /* Frameworks */,
+				AD220C432A860705007E9BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD220C432A860705007E9BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD220C422A860705007E9BD8 /* SpeakNative.app */,
+				AD220C582A86070C007E9BD8 /* SpeakNativeTests.xctest */,
+				AD220C622A86070C007E9BD8 /* SpeakNativeUITests.xctest */,
+				AD7230292AAB59CD0056E075 /* TranslationWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD220C442A860705007E9BD8 /* SpeakNative */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A274C2A91C47C0000A6C7 /* Info.plist */,
+				AD2CAF542A9A4EE5002EE6A6 /* Extras - Don't Use */,
+				AD009C262A89C5C50000911B /* Data */,
+				AD440DFC2A88C51F00F3762C /* Services */,
+				AD220C452A860705007E9BD8 /* SpeakNativeApp.swift */,
+				AD220C472A860705007E9BD8 /* Persistence.swift */,
+				AD220C4C2A860705007E9BD8 /* ContentView.swift */,
+				AD212F882AA6C2DD00C14970 /* WelcomeView.swift */,
+				AD212F8C2AA6F03D00C14970 /* LoginForm.swift */,
+				AD76F55C2A88AEFC00D086CB /* MainFeaturesView.swift */,
+				AD5C6DEA2A99CD55009118A1 /* ChartListItemView.swift */,
+				AD68F7092A9008DC00683FA5 /* TranslatorView.swift */,
+				AD5A274A2A91C2AE0000A6C7 /* TextRecognizerCameraView.swift */,
+				AD2CAF572A9A5451002EE6A6 /* SimpleTranslatorView.swift */,
+				AD2CAF552A9A5060002EE6A6 /* ConversationTranslatorView.swift */,
+				0001EDA02A9DB6CA0039D261 /* CustomButton.swift */,
+				ADE2BEA22A8943EF00905B0D /* FlashCardsView.swift */,
+				AD7ABA7C2A9DE50E00086BB2 /* FlashCardsQuizView.swift */,
+				00D4ACCC2AA08877000990EB /* CustomLanguagePickerView.swift */,
+				AD7ABA812A9DE60F00086BB2 /* claps-44774.mp3 */,
+				AD220C4E2A86070B007E9BD8 /* Assets.xcassets */,
+				AD220C502A86070B007E9BD8 /* SpeakNative.entitlements */,
+				AD220C492A860705007E9BD8 /* SpeakNative.xcdatamodeld */,
+				AD220C512A86070B007E9BD8 /* Preview Content */,
+			);
+			path = SpeakNative;
+			sourceTree = "<group>";
+		};
+		AD220C512A86070B007E9BD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD220C522A86070B007E9BD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD220C5B2A86070C007E9BD8 /* SpeakNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD220C5C2A86070C007E9BD8 /* SpeakNativeTests.swift */,
+			);
+			path = SpeakNativeTests;
+			sourceTree = "<group>";
+		};
+		AD220C652A86070C007E9BD8 /* SpeakNativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD220C662A86070C007E9BD8 /* SpeakNativeUITests.swift */,
+				AD220C682A86070C007E9BD8 /* SpeakNativeUITestsLaunchTests.swift */,
+			);
+			path = SpeakNativeUITests;
+			sourceTree = "<group>";
+		};
+		AD2CAF542A9A4EE5002EE6A6 /* Extras - Don't Use */ = {
+			isa = PBXGroup;
+			children = (
+				AD220C772A865D49007E9BD8 /* LanguageQuestionnaireView.swift */,
+				AD440DFD2A88C57500F3762C /* AIImagegenerator.swift */,
+				AD220C752A860FA2007E9BD8 /* LanguageCardsView.swift */,
+				ADC3AC2E2A8D4B930073666D /* YandexTranslationService.swift */,
+				AD68F7042A8FC14D00683FA5 /* LibreTranslationService.swift */,
+			);
+			path = "Extras - Don't Use";
+			sourceTree = "<group>";
+		};
+		AD440DFC2A88C51F00F3762C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD68F70B2A9092A300683FA5 /* TextOCRVisionHandler.swift */,
+				ADE8A2182A98C34A007160E4 /* SpeechToTextService.swift */,
+				AD77350F2A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift */,
+				ADC14A782AA2EEC100818753 /* SpeechSynthesizerCommon.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD722FF62AAB35320056E075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD722FF72AAB35320056E075 /* WidgetKit.framework */,
+				AD722FF92AAB35320056E075 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD72302C2AAB59CE0056E075 /* TranslationWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AD72302D2AAB59CE0056E075 /* TranslationWidgetBundle.swift */,
+				AD72302F2AAB59CE0056E075 /* TranslationWidget.swift */,
+				AD7230312AAB59CE0056E075 /* AppIntent.swift */,
+				AD7230332AAB59D00056E075 /* Assets.xcassets */,
+				AD7230352AAB59D00056E075 /* Info.plist */,
+				AD7230362AAB59D00056E075 /* TranslationWidget.entitlements */,
+			);
+			path = TranslationWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD220C412A860705007E9BD8 /* SpeakNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD220C6C2A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNative" */;
+			buildPhases = (
+				AD220C3E2A860705007E9BD8 /* Sources */,
+				AD220C3F2A860705007E9BD8 /* Frameworks */,
+				AD220C402A860705007E9BD8 /* Resources */,
+				AD7230092AAB35350056E075 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7230382AAB59D00056E075 /* PBXTargetDependency */,
+			);
+			name = SpeakNative;
+			packageProductDependencies = (
+			);
+			productName = SpeakNative;
+			productReference = AD220C422A860705007E9BD8 /* SpeakNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD220C572A86070C007E9BD8 /* SpeakNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD220C6F2A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNativeTests" */;
+			buildPhases = (
+				AD220C542A86070C007E9BD8 /* Sources */,
+				AD220C552A86070C007E9BD8 /* Frameworks */,
+				AD220C562A86070C007E9BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD220C5A2A86070C007E9BD8 /* PBXTargetDependency */,
+			);
+			name = SpeakNativeTests;
+			productName = SpeakNativeTests;
+			productReference = AD220C582A86070C007E9BD8 /* SpeakNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD220C612A86070C007E9BD8 /* SpeakNativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD220C722A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNativeUITests" */;
+			buildPhases = (
+				AD220C5E2A86070C007E9BD8 /* Sources */,
+				AD220C5F2A86070C007E9BD8 /* Frameworks */,
+				AD220C602A86070C007E9BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD220C642A86070C007E9BD8 /* PBXTargetDependency */,
+			);
+			name = SpeakNativeUITests;
+			productName = SpeakNativeUITests;
+			productReference = AD220C622A86070C007E9BD8 /* SpeakNativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD7230282AAB59CD0056E075 /* TranslationWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD72303A2AAB59D00056E075 /* Build configuration list for PBXNativeTarget "TranslationWidgetExtension" */;
+			buildPhases = (
+				AD7230252AAB59CD0056E075 /* Sources */,
+				AD7230262AAB59CD0056E075 /* Frameworks */,
+				AD7230272AAB59CD0056E075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranslationWidgetExtension;
+			productName = TranslationWidgetExtension;
+			productReference = AD7230292AAB59CD0056E075 /* TranslationWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD220C3A2A860705007E9BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AD220C412A860705007E9BD8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AD220C572A86070C007E9BD8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AD220C412A860705007E9BD8;
+					};
+					AD220C612A86070C007E9BD8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AD220C412A860705007E9BD8;
+					};
+					AD7230282AAB59CD0056E075 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AD220C3D2A860705007E9BD8 /* Build configuration list for PBXProject "SpeakNative" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD220C392A860705007E9BD8;
+			packageReferences = (
+			);
+			productRefGroup = AD220C432A860705007E9BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD220C412A860705007E9BD8 /* SpeakNative */,
+				AD220C572A86070C007E9BD8 /* SpeakNativeTests */,
+				AD220C612A86070C007E9BD8 /* SpeakNativeUITests */,
+				AD7230282AAB59CD0056E075 /* TranslationWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD220C402A860705007E9BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD220C532A86070B007E9BD8 /* Preview Assets.xcassets in Resources */,
+				AD220C4F2A86070B007E9BD8 /* Assets.xcassets in Resources */,
+				AD7ABA822A9DE60F00086BB2 /* claps-44774.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C562A86070C007E9BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C602A86070C007E9BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7230272AAB59CD0056E075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7230342AAB59D00056E075 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD220C3E2A860705007E9BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7ABA7D2A9DE50E00086BB2 /* FlashCardsQuizView.swift in Sources */,
+				00D4ACCD2AA08877000990EB /* CustomLanguagePickerView.swift in Sources */,
+				AD68F70A2A9008DC00683FA5 /* TranslatorView.swift in Sources */,
+				ADE2BEA32A8943EF00905B0D /* FlashCardsView.swift in Sources */,
+				AD220C782A865D49007E9BD8 /* LanguageQuestionnaireView.swift in Sources */,
+				AD76F55D2A88AEFC00D086CB /* MainFeaturesView.swift in Sources */,
+				AD68F70C2A9092A300683FA5 /* TextOCRVisionHandler.swift in Sources */,
+				AD009C282A89C5E20000911B /* LocalDataStore.swift in Sources */,
+				AD220C462A860705007E9BD8 /* SpeakNativeApp.swift in Sources */,
+				AD220C482A860705007E9BD8 /* Persistence.swift in Sources */,
+				AD2CAF562A9A5060002EE6A6 /* ConversationTranslatorView.swift in Sources */,
+				AD220C4D2A860705007E9BD8 /* ContentView.swift in Sources */,
+				AD5C6DEB2A99CD55009118A1 /* ChartListItemView.swift in Sources */,
+				0001EDA12A9DB6CA0039D261 /* CustomButton.swift in Sources */,
+				AD5A274B2A91C2AE0000A6C7 /* TextRecognizerCameraView.swift in Sources */,
+				AD2CAF582A9A5451002EE6A6 /* SimpleTranslatorView.swift in Sources */,
+				AD440DFE2A88C57500F3762C /* AIImagegenerator.swift in Sources */,
+				ADC14A792AA2EEC100818753 /* SpeechSynthesizerCommon.swift in Sources */,
+				AD220C762A860FA2007E9BD8 /* LanguageCardsView.swift in Sources */,
+				AD7735102A9A0E5F009633D8 /* GoogleCloudTranslatorService.swift in Sources */,
+				AD212F892AA6C2DD00C14970 /* WelcomeView.swift in Sources */,
+				AD212F8D2AA6F03D00C14970 /* LoginForm.swift in Sources */,
+				ADE8A2192A98C34A007160E4 /* SpeechToTextService.swift in Sources */,
+				AD220C4B2A860705007E9BD8 /* SpeakNative.xcdatamodeld in Sources */,
+				00B729F42AB0A41800B3DE02 /* LoginHandler.swift in Sources */,
+				AD7230402AABB2180056E075 /* AppIntent.swift in Sources */,
+				ADC3AC2F2A8D4B930073666D /* YandexTranslationService.swift in Sources */,
+				AD68F7052A8FC14D00683FA5 /* LibreTranslationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C542A86070C007E9BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD220C5D2A86070C007E9BD8 /* SpeakNativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD220C5E2A86070C007E9BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD220C692A86070C007E9BD8 /* SpeakNativeUITestsLaunchTests.swift in Sources */,
+				AD220C672A86070C007E9BD8 /* SpeakNativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7230252AAB59CD0056E075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD72302E2AAB59CE0056E075 /* TranslationWidgetBundle.swift in Sources */,
+				AD7230302AAB59CE0056E075 /* TranslationWidget.swift in Sources */,
+				AD8EE5F12AAD67AA00FC0882 /* LocalDataStore.swift in Sources */,
+				AD7230412AABB2360056E075 /* GoogleCloudTranslatorService.swift in Sources */,
+				AD7230322AAB59CE0056E075 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD220C5A2A86070C007E9BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD220C412A860705007E9BD8 /* SpeakNative */;
+			targetProxy = AD220C592A86070C007E9BD8 /* PBXContainerItemProxy */;
+		};
+		AD220C642A86070C007E9BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD220C412A860705007E9BD8 /* SpeakNative */;
+			targetProxy = AD220C632A86070C007E9BD8 /* PBXContainerItemProxy */;
+		};
+		AD7230382AAB59D00056E075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7230282AAB59CD0056E075 /* TranslationWidgetExtension */;
+			targetProxy = AD7230372AAB59D00056E075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD220C6A2A86070C007E9BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listening to user commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognizing user commands";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD220C6B2A86070C007E9BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listening to user commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognizing user commands";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD220C6D2A86070C007E9BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpeakNative/SpeakNative.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 457Y87P354;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakNative/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speak Native";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SpeakNative Used for OCR";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listening to user commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognizing user commands";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD220C6E2A86070C007E9BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpeakNative/SpeakNative.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 457Y87P354;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakNative/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speak Native";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SpeakNative Used for OCR";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listening to user commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognizing user commands";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD220C702A86070C007E9BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakNative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakNative";
+			};
+			name = Debug;
+		};
+		AD220C712A86070C007E9BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakNative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakNative";
+			};
+			name = Release;
+		};
+		AD220C732A86070C007E9BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakNative;
+			};
+			name = Debug;
+		};
+		AD220C742A86070C007E9BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakNative;
+			};
+			name = Release;
+		};
+		AD72303B2AAB59D00056E075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TranslationWidget/TranslationWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TranslationWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TranslationWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNative.TranslationWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD72303C2AAB59D00056E075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TranslationWidget/TranslationWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457Y87P354;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TranslationWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TranslationWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shekhar.practice.SpeakNative.TranslationWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD220C3D2A860705007E9BD8 /* Build configuration list for PBXProject "SpeakNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD220C6A2A86070C007E9BD8 /* Debug */,
+				AD220C6B2A86070C007E9BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD220C6C2A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD220C6D2A86070C007E9BD8 /* Debug */,
+				AD220C6E2A86070C007E9BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD220C6F2A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD220C702A86070C007E9BD8 /* Debug */,
+				AD220C712A86070C007E9BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD220C722A86070C007E9BD8 /* Build configuration list for PBXNativeTarget "SpeakNativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD220C732A86070C007E9BD8 /* Debug */,
+				AD220C742A86070C007E9BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD72303A2AAB59D00056E075 /* Build configuration list for PBXNativeTarget "TranslationWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD72303B2AAB59D00056E075 /* Debug */,
+				AD72303C2AAB59D00056E075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD220C492A860705007E9BD8 /* SpeakNative.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD220C4A2A860705007E9BD8 /* SpeakNative.xcdatamodel */,
+			);
+			currentVersion = AD220C4A2A860705007E9BD8 /* SpeakNative.xcdatamodel */;
+			path = SpeakNative.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD220C3A2A860705007E9BD8 /* Project object */;
+}

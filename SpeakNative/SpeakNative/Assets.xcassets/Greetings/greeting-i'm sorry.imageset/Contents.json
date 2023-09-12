@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "greetings-i'm sorry.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

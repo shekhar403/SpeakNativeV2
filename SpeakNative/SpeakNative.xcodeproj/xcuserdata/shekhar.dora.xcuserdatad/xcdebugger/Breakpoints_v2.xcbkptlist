@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "866A5F05-0D4B-4A72-8E29-D026E97697AA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D81B2E2-180E-4C90-8671-9E75D9CC1947"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "WidgetLanguage"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00CC6D6B-0780-41AB-B41A-8CCDFB323481"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "displayRepresentation"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35A39ED6-F38B-48DC-A1EF-672B0C3734C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "allLanguages"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFF1C40B-1542-408C-A2B4-14497D43FBF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "entities(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "defaultResult()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - afca7ed22a0f8420"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - fef890c4fc4766fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - 3ff057a6da16b026"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - f60d583d12155625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - afca7ed22a0f8420"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - fef890c4fc4766fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - f60d583d12155625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - d8c63a79698ab97e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - 89f4d46fbfc25ba0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - 48fc130d99938d78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "175CB3D6-20BF-46DB-8687-634A0EF04CE6 - 81011c9651906b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.defaultResult() async -&gt; Swift.Optional&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "873F4F43-BA8B-45CE-B22C-4FBD670B23B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "suggestedEntities()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F0C8607-E7D7-486E-8F63-57FE7B05D53C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranslationWidget/AppIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "entities(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - f7a41b254d214a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - ce42ebe40ddfeb91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - 91526856efd5d3bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SpeakNative.WidgetLanguage) -&gt; Swift.Bool in SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - f7a41b254d214a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - ce42ebe40ddfeb91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - 91526856efd5d3bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SpeakNative.WidgetLanguage) -&gt; Swift.Bool in SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - 80a85f8e0ea475fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - b94eaf4f4e5ad4ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "734F20A8-0F17-4C9F-8205-54A0E871667C - e65e2cfdac50ecd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SpeakNative.WidgetLanguage) -&gt; Swift.Bool in SpeakNative.WidgetLanguageQuery.entities(for: Swift.Array&lt;Swift.String&gt;) async throws -&gt; Swift.Array&lt;SpeakNative.WidgetLanguage&gt;"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Desktop/speak-native/SpeakNative/TranslationWidget/AppIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA4C3450-AAD6-4EB1-B1BC-1262C7381360"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/LoginForm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "savePasswordToKeychain()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C879DC2-13B4-4442-887B-DA9C1C4A75F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C879DC2-13B4-4442-887B-DA9C1C4A75F1 - 1eb4c1ad618604ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeakNativeTests.SpeakNativeTests.testTranslation() -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "5C879DC2-13B4-4442-887B-DA9C1C4A75F1 - 1eb4c1ad618604ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeakNativeTests.SpeakNativeTests.testTranslation() -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "610">
+               </Location>
+               <Location
+                  uuid = "5C879DC2-13B4-4442-887B-DA9C1C4A75F1 - 385f4e5c8f2e4e1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SpeakNative.SwiftGoogleTranslate.Language) -&gt; Swift.Bool in SpeakNativeTests.SpeakNativeTests.testTranslation() -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68FCC802-7525-4525-ADE7-81BAB31E27BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BC0C2C7-83A1-4795-A6B1-186630BF2204"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "SpeakNativeTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6BC0C2C7-83A1-4795-A6B1-186630BF2204 - 66b55c96f28618f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNativeTests.SpeakNativeTests.testTranslation() -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "6BC0C2C7-83A1-4795-A6B1-186630BF2204 - 66b55c96f28618f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNativeTests.SpeakNativeTests.testTranslation() -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "345">
+               </Location>
+               <Location
+                  uuid = "6BC0C2C7-83A1-4795-A6B1-186630BF2204 - d130911d33b6a9bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "6BC0C2C7-83A1-4795-A6B1-186630BF2204 - 2d59a84bb8c507bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "521">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FD16B5C-DD12-4B5E-BA61-3C96E35740CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E1F3B65-175F-4E90-9B8C-A02DA5C6039B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D738D83-9A46-4458-A109-E8A2486E8D3B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D738D83-9A46-4458-A109-E8A2486E8D3B - d130911d33b6abca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "459">
+               </Location>
+               <Location
+                  uuid = "9D738D83-9A46-4458-A109-E8A2486E8D3B - 2d59a84bb8c505cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shekhar.dora/Documents/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

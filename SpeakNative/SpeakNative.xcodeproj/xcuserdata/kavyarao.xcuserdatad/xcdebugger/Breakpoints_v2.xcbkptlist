@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "812A6D2E-E42C-496C-A52E-CEE9B4664831"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B03147C-0FA6-4A1D-8B7D-73397FEA36AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "loadLanguages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96F8033D-313B-47E0-B168-306256D38ABD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "loadLanguages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96F8033D-313B-47E0-B168-306256D38ABD - 6ac9fa5380cecb62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Language&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.loadLanguages() -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "96F8033D-313B-47E0-B168-306256D38ABD - 6ac9fa5380cecb62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Language&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.loadLanguages() -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8991F94F-AE79-456C-821F-43D56FC443DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "translate(_:_:_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30141340-FA44-47B3-831F-1C12419AA07B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "551A49B7-BE83-4A1A-ACCC-BFBF56EFD521"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D2D1D75-3B6F-4060-BCCF-FD6178E58C4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "896B3681-DADC-49BE-8831-47405C4DAC33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "896B3681-DADC-49BE-8831-47405C4DAC33 - 8e9000f63534335c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "1135">
+               </Location>
+               <Location
+                  uuid = "896B3681-DADC-49BE-8831-47405C4DAC33 - 8e9000f63534335c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "1259">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27DDB90D-618A-4B30-832E-5988A2E877AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Services/GoogleCloudTranslatorService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "detect(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27DDB90D-618A-4B30-832E-5988A2E877AC - 9977f20aed2adb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "27DDB90D-618A-4B30-832E-5988A2E877AC - 9977f20aed2adb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1614">
+               </Location>
+               <Location
+                  uuid = "27DDB90D-618A-4B30-832E-5988A2E877AC - 9977f20aed2adb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1939">
+               </Location>
+               <Location
+                  uuid = "27DDB90D-618A-4B30-832E-5988A2E877AC - 9977f20aed2adb3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SpeakNative.SwiftGoogleTranslate.detect(Swift.String, (Swift.Optional&lt;Swift.Array&lt;SpeakNative.SwiftGoogleTranslate.Detection&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SpeakNative"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNative/Services/GoogleCloudTranslatorService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "2269">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4448857D-271A-4FFE-8974-FA74C86A923F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D52CC060-F28A-4ABF-8999-A22D7F4A836D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D52CC060-F28A-4ABF-8999-A22D7F4A836D - f0abb3d65212f864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1054">
+               </Location>
+               <Location
+                  uuid = "D52CC060-F28A-4ABF-8999-A22D7F4A836D - 6c9aab7164e9c327"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  uuid = "D52CC060-F28A-4ABF-8999-A22D7F4A836D - 5819657b5df5b46a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "D52CC060-F28A-4ABF-8999-A22D7F4A836D - eb53bd1af874c6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5FF8189-FD47-42B2-941F-2AAF4D307B1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNativeTests/SpeakNativeTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testTranslation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5FF8189-FD47-42B2-941F-2AAF4D307B1C - 5819657b5df5b428"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "361">
+               </Location>
+               <Location
+                  uuid = "A5FF8189-FD47-42B2-941F-2AAF4D307B1C - 5819657b5df5b428"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for SpeakNativeTests.SpeakNativeTests.testTranslation() async throws -&gt; ()"
+                  moduleName = "SpeakNativeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kavyarao/Desktop/speak-native/speak-native/SpeakNative/SpeakNativeTests/SpeakNativeTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "389">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "642E4708-5F3C-4109-8213-4EA6A52C87BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeakNative/Data/LoginHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "savePasswordToKeychain()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

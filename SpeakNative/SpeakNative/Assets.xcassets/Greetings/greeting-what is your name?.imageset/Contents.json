@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "greetings-what is your name?.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "conversation-translation.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
